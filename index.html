@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedStar Hospital</title>
+    <!-- استدعاء مكتبة EmailJS -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script type="text/javascript">
+  (function () {
+    emailjs.init({
+      publicKey: "Z0OylyngJxUozmHLV",
+    });
+  })();
+</script>
+
+    <!-- STYLE css -->
+    <link rel="stylesheet" href="style.css">
+     
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="stock/favicon.png">
+    <!-- FONT-AWESOME -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+</head>
+
+<body>
+    <!-- style for header  -->
+    <div class="Header">
+        <div class="logo">
+            <a href="#"><img src="./stock/logo.png" alt=""></a>
+        </div>
+        <ul class="nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li class="menu"><a href="#">Service ⌵</a>
+                <ul class="sub-menu">
+                    <li><a href=""> Treatment</a></li>
+                    <li><a href="">Teeth </a></li>
+                    <li><a href=""> Surgery</a></li>
+                    <li><a href="">Vision </a></li>
+                </ul>
+            </li>
+            <li><a href="#doctor">Doctor</a></li>
+            <li><a href="#blug">Blug</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+<!-- page 1 #home -->
+    <div class="home" id="home">
+        
+        <div class="home-content">
+            <div class="pulse-container">
+                <img class="bulse" src="./stock/section-img.png" alt="">
+                <h5>WE GIVE YOU THE BEST</h5>
+            </div>
+            <h2>We Provide <span> Medical </span>Services <br> That You Can <span>Trust!</span> </h2>
+            <p> Need Professional help? Our support staff will answer your questions.<br> Visit us  Now or Make an Appointment!"</p>
+            <button class="get-app">Get Appointment</button>
+            <button class="contact-now">Contact Now</button>
+        </div>
+        <div class="home-stock">
+        </div>
+    </div>
+
+<!-- page 2 #about -->
+    <div class="about" id="about">
+
+        <div class="about-header">
+            <h2>We Offer Different Services To Improve Your Health.</h2>
+            <img class="bulse" src="./stock/section-img.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius excepturi </p>
+        </div>
+
+        <div class="content">
+            <div class="about-main-content">
+                <div class="about-content">
+                    <h2>Who We Are.</h2>
+                    <hr>
+                    <p>We take health care personally at MedStar hospital. Because excellence in health care is about more than just medicine, technology, tests and treatments."</p>
+                    <p>It is about really caring for people with dignity and respect. Thats what we do. We are dedicated to providing the best care to meet the needs of people for our community, for our patients -- for you."</p>
+                </div>       
+                    
+                <div class="about-list">
+                    <div class="list1">
+                    <ul>
+                    <li> <i class="fa-solid fa-circle-play play-icon"></i>
+                    <a href="">Lorem ipsum dolor</a> </li>
+                    <li>  <i class="fa-solid fa-circle-play play-icon"></i>
+                    <a href="">Lorem ipsum dolor</a></li>
+                    <li>  <i class="fa-solid fa-circle-play play-icon"></i> 
+                    <a href="">Lorem ipsum dolor</a></li>
+                    </ul>
+                    </div>
+
+                    <div class="list2">
+                    <ul>
+                    <li> <i class="fa-solid fa-circle-play play-icon"></i>  
+                    <a href="">Lorem ipsum dolor</a></li>
+                    <li> <i class="fa-solid fa-circle-play play-icon"></i>  
+                    <a href="">Lorem ipsum dolor</a></li>
+                    <li>  <i class="fa-solid fa-circle-play play-icon"></i> 
+                    <a href="">Lorem ipsum dolor</a></li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div >
+            <img class="about-IMG" src="./stock/blog-1.jpeg" alt="Medical Image">
+            </div>
+        
+        </div>
+
+        <div class="static">
+            <div class="icon-circle">
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="stat-text">
+                <h3>3468</h3>
+                <p>hospital-room</p>
+            </div>
+            <div class="icon-circle">
+                <i class="fa-regular fa-face-smile"></i>
+            </div>
+            <div class="stat-text">
+            <h3>557</h3>
+            <p>specialist-doctor</p>
+            </div>
+            <div class="icon-circle">
+                <i class="fa-solid fa-user-md"></i>
+            </div>
+            <div class="stat-text">
+                <h3>4379</h3>
+                <p>happy-patient</p>
+            </div>
+            <div class="icon-circle">
+                <i class=" fa-solid fa-list-ul"></i>
+            </div>
+            <div class="stat-text">
+                <h3>32</h3>
+                 <p>years of experience</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- page 3 #Service -->
+    <!-- start style for service  and sub-service-->
+    <div class="service" id="service">
+        <div class="service-header">
+        <h2>We Are Always Ready To Help You & Your Family</h2>
+        <img class="bulse" src="./stock/section-img.png" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, consequuntur.</p>
+        </div>
+        <div class="service-content">
+            <div class="service1">
+                <div class="icon-stroke-circle">
+                    <i class="fa-solid fa-truck-medical"></i>
+                </div>
+                <div class="service-text">
+                    <h5>Emergency Help</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, distinctio?</p>
+                </div>
+            </div>
+            <div class="service2">
+                <div class="icon-stroke-circle">
+                    <i class="fa-solid fa-stethoscope"></i>
+                </div>
+                <div class="service-text">
+                    <h5>Emergency Help</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, distinctio?</p>
+                </div>
+            </div>
+            <div class="service3">
+                <div class="icon-stroke-circle">
+                    <i class="fa-solid fa-heart-pulse"></i>
+                </div>
+                <div class="service-text">
+                    <h5>Emergency Help</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, distinctio?</p>
+                </div>
+            </div>
+        </div>
+        <div class="Emergency-Section">
+           
+            <div class="Emergency-text">
+            <h2>Do you need Emergency Medical Care? Call @ 1234 56789</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, veniam.</p>
+            <button   class="contact-now">contact-now</button>
+            <button  class="learn-more">learn-more →</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- page 4 #sub-Service -->
+    <div class="sub-service" >
+
+        <div class="service-header">
+        <h2>We Offer Different Services To Improve Your Health</h2>
+        <img class="bulse" src="./stock/section-img.png" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, consequuntur.</p>
+        </div>
+        <div class="service-content2">
+            <div class="service1">
+                <div class="icon-stroke-circle">
+                    <i class="fa-solid fa-list-ul"></i>
+                </div>
+                <div class="service-text">
+                    <h5>Emergency Help</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, distinctio?</p>
+                </div>
+            </div>
+            <div class="service2">
+                <div class="icon-stroke-circle">
+                    <i class="fa-solid fa-tooth"></i>
+                </div>
+                <div class="service-text">
+                    <h5>Emergency Help</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, distinctio?</p>
+                </div>
+            </div>
+            <div class="service3">
+                <div class="icon-stroke-circle">
+                    <i class="fa-solid fa-heart-pulse"></i>
+                </div>
+                <div class="service-text">
+                    <h5>Emergency Help</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, distinctio?</p>
+                </div>
+            </div>
+        </div>
+        <div class="service-content3">
+            <div class="service1">
+                <div class="icon-stroke-circle">
+                    <i class="fa-solid fa-ear-listen"></i>
+                </div>
+                <div class="service-text">
+                    <h3>Emergency Help</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, distinctio?</p>
+                </div>
+            </div>
+            <div class="service2">
+                <div class="icon-stroke-circle">
+                    <i class="fa-solid fa-eye"></i>
+                </div>
+                <div class="service-text">
+                    <h3>Emergency Help</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, distinctio?</p>
+                </div>
+            </div>
+            <div class="service3">
+                <div class="icon-stroke-circle">
+                    <i class="fa-solid fa-droplet"></i>
+                </div>
+                <div class="service-text">
+                    <h3>Emergency Help</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, distinctio?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- page 5 #doctor -->
+    <!-- start style for doctor-->
+    <div class="doctor" >
+
+        <div class="doctor-header" id="doctor">
+        <h2>Meet Our experience Doctors</h2>
+        <img class="bulse" src="./stock/section-img.png" >
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, consequuntur.</p>
+        </div>
+    
+        <div  class="doctor-container">
+            <div class="doctor-details">
+                <img src="./stock/doctor-1.jpg" >
+                <h2>Dr. Zyad Ali</h2>
+                <span>Surgeon</span>
+                <button type="button" onclick="alert('Dr. Zyad Ali\nSurgeon\n50 Years Old\n12+ Years of Practice\n10:00 AM - 04:00 PM')"> details</button>            
+            </div>
+            <div class="doctor-details">
+                <img src="./stock/doctor-2.jpg" alt="">
+                <h2>Dr. Mazen Osama</h2>
+                <span>Ophthalmology</span>
+                <button type="button" onclick="alert('Dr. Mazen Osama\Ophthalmology\n42 Years Old\n15+ Years of Practice\n10:00 AM - 04:00 PM')"> details</button>            
+            </div>
+            <div class="doctor-details">
+                <img src="./stock/doctor-1.jpg">
+                <h2>Dr. Aisha Mostafa</h2>
+                <span>Dentist</span>
+                <button type="button" onclick="alert('Dr. Aisha Mostafa\Dentist\n45 Years Old\n17+ Years of Practice\n10:00 AM - 04:00 PM')"> details</button>            
+            </div>
+        </div>
+    </div>
+
+    <!-- page 6 #blug -->
+    <!-- start style for blug-->
+    <div class="blug" id="blug">
+
+        <div class="blug-header" id="blug">
+        <h2>Keep Up With Our Most Recent Medical News</h2>
+        <img class="bulse" src="./stock/section-img.png" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, consequuntur.</p>
+        </div>
+    
+        <div  class="blug-container ">
+            <div class="blug-details ">
+                <img src="./stock/blog-1.jpeg" alt="">
+                <button type="button" onclick="alert(' 📍 Company HQ, 5th Floor > 🕒 09:00 AM | Duration: 5 hrs')"> 22 Aug, 2026</button>
+                <h4>We have announced our new product</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit odit numquam, sapiente natus vitae inventore sequi maiores doloremque ab architecto! .</p>
+            </div>
+            <div class="blug-details">
+                <img src="./stock/blog-2.jpeg" alt="">
+                <button type="button" onclick="alert(' 📍 Company HQ, 4th Floor > 🕒 10:00 AM | Duration: 5 hrs')"> 30 Dec, 2026</button>
+                <h4>Top Five ways for solving teeth problems</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit odit numquam, sapiente natus vitae inventore sequi maiores doloremque ab architecto! .</p>
+            </div>
+            <div class="blug-details">
+                <img src="./stock/blog-3.jpg" alt="">
+                <button type="button" onclick="alert(' 📍 Company HQ, 4th Floor > 🕒 7:00 AM | Duration: 4 hrs')"> 1 Jan, 2026</button>
+                <h4>We provide highly business solutions</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit odit numquam, sapiente natus vitae inventore sequi maiores doloremque ab architecto! .</p>
+            </div>
+        </div>
+    </div> 
+
+    <!-- page 7 #contact -->
+    <!-- start style for contaact-->
+     <div class="contact" id="contact">
+
+        <div class="contact-header" id="contact">
+        <h2>We Are Always Ready To Help You. Book An Appointment</h2>
+        <img class="bulse" src="./stock/section-img.png" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, consequuntur.</p>
+        </div>
+    
+        <div  class="contact-container">
+            <form class="form-input" onsubmit="sendEmail(event)" id="contact-form" >
+                <div class="form-group" >
+                    <input type="text" id="name" name="name" placeholder=" Name" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="tel" id="phone" name="phone" placeholder="Phone" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="date" id="date" name="date"required>
+                </div>
+                
+                <div class="form-group">
+                    <select id="department" name="department">
+                        <option value="" selected disabled hidden>Doctor</option>
+                        <option value=>(Surgeon)</option> 
+                        <option > (Ophthalmology)</option>
+                         <option > (Dentist)</option> 
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <select id="doctor" name="doctor">
+                        <option value="" selected disabled hidden>Select Department</option>
+                        <option value="zyad">Dr. Zyad Ali (Surgeon)</option>
+                        <option value="mazen">Dr. Mazen Osama (Ophthalmology)</option>
+                        <option value="aisha">Dr. Aisha Mostafa (Dentist)</option> 
+                    </select>
+                </div>
+
+                <div class="massage">
+                    <textarea id="message" name="message" placeholder="Write Your Message Here..."></textarea>
+                </div>
+                <div class="form-group">
+
+                <button  id="submit"  class="submit-btn">Book Appointment</button>
+                </div>
+            </form>
+            <div class="doctor-details">
+                <img src="./stock/contact.jpg" alt="">
+            </div>
+
+        </div>
+    </div> 
+
+     <!-- page 8 #contact -->
+    <!-- start style for subscribe-->
+    <div class="newsletter">
+
+        <div class="newsletter-content">
+            <h3>Sign up for newsletter</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, accusamus?</p>
+        </div>
+        <div class="newsletter-button">
+                <div class="form-group">
+                    <input type="text" id="address"  placeholder=" Your email address" required>
+                </div>
+        </div>
+        <div class="newsletter-button">
+                <div class="form-group">
+                    <button type="submit" class="submit-btn">Subscribe</button>
+                </div>
+        </div>
+    </div>
+
+
+
+    <!-- start style for footer-->
+     <div class="footer" id="footer">
+        <!-- first-colum About-us -->
+        <div class="footer-columns">
+            <div class="col">
+                <h2>About-us</h2>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, quibusdam animi facere nobis quos facilis voluptates consequatur minus nihil cum blanditiis perspiciatis earum sequi ab.</p>
+            </div>
+            <div class="social-icons">
+                <a href="#" class="facebook" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="google-plus" title="Google+"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#" class="twitter" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="vimeo" title="Vimeo"><i class="fab fa-vimeo-v"></i></a>
+                <a href="#" class="pinterest" title="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+            </div>
+        </div>
+
+        <!-- second-colum Quick links -->
+        <div class="footer-columns">
+            <div class="col">
+                <h2>Quick links</h2>
+                <hr>
+            </div>
+            <div class="quick-links">
+                <ul>
+                    <li><i class="fas fa-caret-right"></i><a href="#"> Home</a></li>
+                    
+                    <li><i class="fas fa-caret-right"></i><a href="#about"> About</a></li>
+                    <li><i class="fas fa-caret-right"></i><a href="#service"> service</a></li>
+                    <li><i class="fas fa-caret-right"></i><a href="#doctor"> Doctor</a></li>
+                    <li><i class="fas fa-caret-right"></i><a href="#blug"> Blug</a></li>
+                    <li><i class="fas fa-caret-right"></i><a href="#contact"> Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- third-colum Open Hours -->
+        <div class="footer-columns">
+            <div class="col">
+                <h2>Open Hours</h2>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. consequatur minus nihil cum blanditiis perspiciatis earum sequi.</p>
+
+                <p>Monday - Thursday: 8.00 - 20.00</p>
+
+                <p>Saturday: 9.00 - 18.30</p>
+                <p>Friday: 9.00 - 15.00</p>
+            </div>
+
+        </div >
+
+        <!-- forth-colum Newsletter -->
+        <div class="footer-columns">
+            <div class="col">
+                <h2>Newsletter</h2>
+                <hr>
+                <p>Lorem ipsum dolor sit amet adipisicing elit. Aliquid fugit eum veniam ad, quos ratione impedit aliquam animi dignissimos explicabo!</p>
+                <div class="newsletter-input-container">
+                    <input type="email" placeholder="Email Address" class="newsletter-input">
+                    <button type="submit" class="send-icon-btn">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div> 
+
+    <div class="footer-bottom">
+        <p>&copy; All right reserved 2026 | Made by <strong>MONA Mohamed</strong></p>
+    </div>
+
+
+<script src="script.js"></script>
+    
+</body>
+</html>
+
